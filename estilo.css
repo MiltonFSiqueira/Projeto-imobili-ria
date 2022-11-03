@@ -1,0 +1,196 @@
+@charset "=UTF -8";
+
+body{
+    margin: 0 auto;
+    font-family: Tahoma;    
+}
+
+.sesao{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px; 
+       
+}
+
+.sesao-sobre p{
+    margin: 10px 20px;
+}
+
+.sesao-destaqueazulclaro{
+    background-color: #afddfb;
+}
+.img-logo{
+    width: 150px
+}
+
+.link-topo{
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin: 0px 10px
+   }
+
+   .img-baner{
+    margin-top: 50px;
+    padding-top:  0px;
+    margin: 0 auto;
+    width: calc(100vw - 60px);
+    opacity: 80%;
+   }
+
+   .paragrafo-link, a{
+    text-align: center;
+}
+
+p{
+    margin: 10px auto;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.titulo-sobre{
+    color: #1d1d1d;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.destaque{
+    color: #1c81c0;
+    margin-top: 0px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.img-sobre{
+    width: 450px;
+    margin: 0px 480px;
+   }
+
+.destaque-sobre{
+    color: #1d80c1;
+}
+
+.sesao-azul-serviço{
+    background-color: #1d80c1 ;
+    color: #ffffff;
+}
+
+.sub-serviço{
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.paragrafo-serv{
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.destaque-amareloflor{
+    color: #fff81b;
+}
+
+.lista-serv{
+    margin: 40px auto;
+    width: 135px;
+}
+
+.item-listaserv{
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.sub-corretor{
+    font-size: 28px;
+    line-height: 42px;
+    color: #1d80c1;
+    text-align: center;
+    }
+
+.span-corretor{
+    color: #1d80c1;
+    }
+
+.img-corretor{
+    width: 450px;
+    margin: 0px 480px;
+}
+
+.paragrafo-corretor{
+    margin: 10px 20px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.sesao-azul-contato{
+    background-color: #1d80c1 ;
+    color: #ffffff;
+    
+}
+
+.sub-contato{
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.paragrafo-contato-destaque-black{
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.destaque-amarelo{
+    color: #fff81b;
+}
+
+.lista-contato{
+    margin: 40px auto;
+    width: 210;
+}
+
+.item-lista-contato{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.link-contato{
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+iframe{
+    width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .limita-largura{
+        width: 100%;
+    }
+       .img-sobre, .img-corretor{
+        margin-left: 0px;
+    }
+       }
+    
+    
+
+
+
